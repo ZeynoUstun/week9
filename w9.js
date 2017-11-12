@@ -9,6 +9,7 @@ const { Client } = require('pg');
 // PARTICLE PHOTON
     // exported PHOTON_ID and PHOTON_TOKEN in the terminal 
     // changed the particle variable 
+
 var device_id = process.env.PHOTON_ID;
 var access_token = process.env.PHOTON_TOKEN;
 var particle_variable = 'fototilt';
@@ -18,9 +19,9 @@ var device_url = 'https://api.particle.io/v1/devices/' + device_id + '/' + parti
 
     // exported the host AWSRDS_EP and the password in the terminal AWSRDS_PW
 var db_credentials = new Object();
-db_credentials.user = 'zeyno';
+db_credentials.user = 'zeynoustun';
 db_credentials.host = process.env.AWSRDS_EP;
-db_credentials.database = 'datastructure';
+db_credentials.database = 'laborhours';
 db_credentials.password = process.env.AWSRDS_PW;
 db_credentials.port = 5432;
 
