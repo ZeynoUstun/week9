@@ -12,7 +12,7 @@ const { Client } = require('pg');
 
 var device_id = process.env.PHOTON_ID;
 var access_token = process.env.PHOTON_TOKEN;
-var particle_variable = 'fototilt';
+var particle_variable = 'Labor';
 var device_url = 'https://api.particle.io/v1/devices/' + device_id + '/' + particle_variable + '?access_token=' + access_token;
 
 // AWS RDS POSTGRESQL INSTANCE
